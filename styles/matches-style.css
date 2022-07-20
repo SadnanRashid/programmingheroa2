@@ -7,6 +7,7 @@
 }
 
 .match-box {
+  margin: 0;
   margin-bottom: 10%;
   border: 2px solid #e8e8e8;
   border-radius: 8px;
@@ -19,8 +20,8 @@
 .match-box div {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  margin: 7%;
   margin-top: 15%;
   justify-content: space-between;
 }

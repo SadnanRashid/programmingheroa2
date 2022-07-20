@@ -107,7 +107,7 @@ main {
 }
 
 .selection-div {
-  width: 25%;
+  width: 312px;
   height: 275px; /* Might convert to % later. [might do in media query instead] */
   border-radius: 10px;
 
@@ -182,6 +182,10 @@ footer a {
   color: #e8e8e8bd;
   margin-right: 5%;
   margin-top: 3%;
+}
+
+footer a:hover {
+  color: #e8e8e8;
 }
 
 .social-box a {
