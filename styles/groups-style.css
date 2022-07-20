@@ -1,0 +1,24 @@
+.group-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  justify-content: space-between;
+}
+
+.group-box {
+  width: 90%;
+  margin-bottom: 8%;
+  border: 2px solid #e1e1e1;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.group-box h2 {
+  font-family: "Poppins", sans-serif;
+  margin: 3%;
+}
+
+.group-box img {
+  margin-bottom: 3%;
+  width: 100%;
+}

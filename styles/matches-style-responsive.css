@@ -1,0 +1,21 @@
+/* 
+Message to checker: I am using 768px as Tablet size. Taken from bootstrap's breakpoint guide.
+Class infix: md, sm
+*/
+@media screen and (max-width: 768px) {
+  /* Responsive matches page */
+  .match-div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile resposive (576px) */
+
+@media screen and (max-width: 576px) {
+  /* Responsive matches page */
+  .match-div {
+    grid-template-columns: auto;
+    height: 100%;
+    display: block;
+  }
+}

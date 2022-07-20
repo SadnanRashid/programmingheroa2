@@ -1,0 +1,40 @@
+.match-div {
+  width: 90%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
+}
+
+.match-box {
+  margin-bottom: 10%;
+  border: 2px solid #e8e8e8;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+.match-box div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 7%;
+  margin-top: 15%;
+  justify-content: space-between;
+}
+
+.match-box h2 {
+  font-size: 2vw;
+}
+.match-box h3 {
+  font-size: 1.5vw;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#color-gray {
+  color: #4d4d4d;
+  margin-top: 3%;
+}

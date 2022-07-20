@@ -1,0 +1,142 @@
+/* 
+>>>> I am using 768px as Tablet size. Taken from bootstrap's breakpoint guide.
+Class infix: md, sm <<<<
+*/
+@media screen and (max-width: 768px) {
+  /* Responsive the texts so it fits to tablet view better */
+  .big-text {
+    font-size: 26px;
+  }
+
+  .small-text {
+    font-size: 2vw;
+  }
+
+  .red-button {
+    padding: 8px 12px;
+    font-size: 10px;
+  }
+
+  /* Resposive for blog section */
+  .section-blog {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .selection-div {
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+
+    flex-direction: row;
+
+    background-color: white;
+    margin-right: 0;
+    margin-bottom: 3%;
+  }
+
+  .selection-div a {
+    margin-top: 0;
+    border: 1px solid #e8e8e8;
+  }
+
+  .blog-div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* display view more button in tablet */
+  #view-more-button {
+    margin-top: 15%;
+    display: block;
+  }
+}
+
+/* Mobile resposive (576px) */
+
+@media screen and (max-width: 576px) {
+  /* Responsive the texts so it fits to mobile view better */
+
+  .section-top {
+    flex-direction: column;
+    height: 555px;
+    margin-top: 25px;
+  }
+
+  .top-image-div {
+    background-size: contain;
+    background-position: bottom;
+    width: 100%;
+    height: 335px;
+  }
+
+  .top-text-div {
+    width: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  .big-text {
+    font-size: 26px;
+    margin-bottom: 2px;
+  }
+
+  .small-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+
+  .red-button {
+    padding: 8px 25px;
+    font-size: 10px;
+    margin-top: 0;
+  }
+
+  /* Resposive for blog section */
+  .section-blog {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .selection-div {
+    width: 90%;
+    height: 150px;
+    border-radius: 10px;
+
+    flex-direction: column;
+
+    background-color: white;
+    margin-right: 0;
+    margin-bottom: 3%;
+  }
+
+  .selection-div a {
+    margin-bottom: 10px;
+    border: 1px solid #e8e8e8;
+  }
+
+  .blog-div {
+    grid-template-columns: 1fr;
+    height: 100%;
+    display: block;
+    /* displayed as block to fit the content inside blog-div */
+  }
+
+  .blog-box {
+    margin-top: 20px;
+  }
+
+  /* display view more button in tablet only */
+  #view-more-button {
+    display: none;
+  }
+
+  /* responsive footer for mobile */
+  footer div {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"); /* importing pops */
+/* Style for index.html */
+
+body {
+  margin: 0;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  /* justify-content: center; */
+}
+
+/* Start of section-top */
+.section-top {
+  height: 100%;
+  width: 92%;
+  background-color: #161616;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.top-text-div {
+  width: 50%;
+  margin-left: 5%;
+  padding-bottom: 50px;
+}
+
+.top-image-div {
+  width: 50%;
+}
+
+.top-image-div {
+  background-image: url("../media/salah2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  width: 50%;
+  margin-right: 5%;
+}
+/* End of section-top */
+
+/* Start of section-blog */
+
+.section-blog {
+  width: 92%;
+  /* height: 1050px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+  color: #161616;
+}
+
+.blog-div {
+  width: 90%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
+}
+
+.blog-box {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  border: 2px solid #e8e8e8;
+  border-radius: 10px;
+}
+.blog-box img {
+  width: 100%;
+}
+
+.blog-details {
+  margin-top: 10%;
+  margin-left: 10px;
+}
+
+.bordered-text {
+  margin-top: -3%;
+  margin-bottom: 7%;
+  padding: 5px;
+  display: inline-block; /* set as inline */
+  border: 1px solid #161616;
+  border-radius: 5px;
+}
+
+.blog-icon-box {
+  margin-top: 7%;
+  margin-bottom: 5%;
+  font-weight: 300;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.selection-div {
+  width: 25%;
+  height: 275px; /* Might convert to % later. [might do in media query instead] */
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #161616;
+
+  margin-right: 2%;
+}
+
+.selection-div a {
+  margin-top: 10%;
+  width: 60%;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+#selected-button {
+  font-size: 18px;
+  background-color: #dd0000;
+  color: white;
+}
+
+#view-more-button {
+  display: none; /* make it display:block; in media query */
+}
+
+/* End of section-blog */
+
+/* Start of Footer */
+
+footer {
+  width: 100%;
+  background-color: #161616;
+  color: #e8e8e8;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 7%;
+}
+
+footer hr {
+  width: 80%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(218, 201, 201, 0),
+    rgba(218, 201, 201, 0.75),
+    rgba(218, 201, 201, 0)
+  );
+  margin-bottom: 4%;
+  margin-top: 5%;
+}
+
+footer div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #e8e8e8bd;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+.social-box a {
+  font-size: 3vw;
+}
+
+/*  */
+/* Text and Button classes: */
+
+.big-text {
+  /* font-size: 4.37em; */
+  font-size: 5vw; /* Using VH for better responsiveness */
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 60px;
+
+  line-height: 120%;
+}
+
+.small-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.red-button {
+  background-color: #dd0000;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.font-mono {
+  font-family: monospace;
+  font-weight: 700;
+}
+
+.margin-right {
+  margin-right: 20px;
+}
