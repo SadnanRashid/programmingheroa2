@@ -7,6 +7,10 @@ Class infix: md, sm
   .match-div {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  #medium-text {
+    font-size: 3vw;
+  }
 }
 
 /* Mobile resposive (576px) */
@@ -17,5 +21,9 @@ Class infix: md, sm
     grid-template-columns: auto;
     height: 100%;
     display: block;
+  }
+
+  #medium-text {
+    font-size: 6vw;
   }
 }

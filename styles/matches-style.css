@@ -22,7 +22,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 15%;
+  margin-top: 12%;
   justify-content: space-between;
 }
 
@@ -38,4 +38,11 @@
 #color-gray {
   color: #4d4d4d;
   margin-top: 3%;
+}
+
+#medium-text {
+  font-family: monospace;
+  font-size: 2vw;
+  font-weight: 700;
+  margin-top: 10px;
 }
